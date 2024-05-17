@@ -1,5 +1,5 @@
 # kubingJr
-[link to the blogpost]()
+[link to the blogpost](https://link.medium.com/NvjMTxtHFJb)
 
 command to create a new resource based from a YAML file
 ```
@@ -27,3 +27,20 @@ This command to get the IP of kubernetes cluster:
 ```
 minikube ip
 ```
+
+### to build the image of our app locally
+```
+sudo docker build -t <image_name> <path_to_Dockerfile>
+```
+
+### to run the app locally
+```
+sudo docker build -t <image_name> <path_to_Dockerfile>
+```
+
+### to push our image to dockerhub
+```
+sudo docker push <image_name>
+```
+
+(find the image here)[https://hub.docker.com/repository/docker/velvetjedi/nodeapp/general]
