@@ -43,4 +43,4 @@ sudo docker build -t <image_name> <path_to_Dockerfile>
 sudo docker push <image_name>
 ```
 
-(find the image here)[https://hub.docker.com/repository/docker/velvetjedi/nodeapp/general]
+(find the image here)[https://hub.docker.com/r/velvetjedi/nodeapp]
